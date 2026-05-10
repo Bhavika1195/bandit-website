@@ -30,5 +30,5 @@ function setupTaskLinks() {
 
 window.addEventListener('DOMContentLoaded', () => {
   setupTaskLinks();
-  loadPage('bandit13.md');
+  loadPage('bandit0.md');
 });
