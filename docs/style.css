@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: Inter, system-ui, sans-serif;
+  background: #0b1320;
+  color: #e2e8f0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+header {
+  background: #16213e;
+  padding: 24px 16px;
+  border-bottom: 1px solid #334155;
+}
+
+header h1 {
+  margin: 0 0 8px;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 24px;
+  padding: 24px 0;
+}
+
+aside {
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 12px;
+  padding: 16px;
+}
+
+nav h2 {
+  margin-top: 0;
+}
+
+.task-link {
+  display: block;
+  width: 100%;
+  margin: 8px 0;
+  border: none;
+  background: transparent;
+  color: #cbd5e1;
+  text-align: left;
+  padding: 10px 12px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.task-link:hover,
+.task-link.active {
+  background: #334155;
+  color: #fff;
+}
+
+.content {
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 12px;
+  padding: 24px;
+}
+
+footer {
+  color: #94a3b8;
+  padding: 16px 0;
+}
+
+a {
+  color: #7dd3fc;
+}
+
+code {
+  background: rgba(148, 163, 184, 0.2);
+  padding: 0.2em 0.4em;
+  border-radius: 6px;
+}
+
+pre {
+  background: #0f172a;
+  padding: 16px;
+  border-radius: 12px;
+  overflow-x: auto;
+}
