@@ -86,3 +86,120 @@ pre {
   border-radius: 12px;
   overflow-x: auto;
 }
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .container {
+    padding: 12px;
+  }
+
+  header {
+    padding: 16px 12px;
+  }
+
+  header h1 {
+    font-size: 24px;
+  }
+
+  header p {
+    font-size: 14px;
+  }
+
+  .layout {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    padding: 16px 0;
+  }
+
+  aside {
+    padding: 12px;
+  }
+
+  nav h2 {
+    font-size: 18px;
+    margin: 0 0 12px;
+  }
+
+  .task-link {
+    padding: 12px 10px;
+    font-size: 15px;
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+  }
+
+  .content {
+    padding: 16px;
+  }
+
+  .content h1,
+  .content h2 {
+    font-size: 20px;
+    margin: 16px 0 12px;
+  }
+
+  .content h3 {
+    font-size: 16px;
+  }
+
+  .content p,
+  .content li {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  code {
+    font-size: 13px;
+  }
+
+  pre {
+    padding: 12px;
+    font-size: 13px;
+  }
+
+  footer {
+    padding: 12px 0;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+
+  header h1 {
+    font-size: 20px;
+  }
+
+  header p {
+    font-size: 12px;
+  }
+
+  .task-link {
+    font-size: 14px;
+    padding: 10px 8px;
+  }
+
+  nav h2 {
+    font-size: 16px;
+  }
+
+  .content {
+    padding: 12px;
+    border-radius: 8px;
+  }
+
+  .content h1 {
+    font-size: 18px;
+  }
+
+  .content h2 {
+    font-size: 16px;
+  }
+
+  pre {
+    padding: 10px;
+    font-size: 12px;
+  }
+}
